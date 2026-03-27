@@ -1,0 +1,17 @@
+{
+  "name": "databrook-os",
+  "version": "1.0.0",
+  "description": "Personal Agent OS template — install via npx github:kim2783/Databrook-os",
+  "bin": {
+    "databrook-os": "./cli/index.js"
+  },
+  "scripts": {
+    "test": "node cli/index.js --help"
+  },
+  "keywords": ["agent-os", "copilot", "scaffolding", "databrook"],
+  "author": "kim2783",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}
