@@ -30,6 +30,14 @@ Preserved during updates: `.agent-os/product/**` and `.agent-os/specs/**`
 3. Fill in `.agent-os/product/tech-stack.md`
 4. Start using commands in GitHub Copilot Chat (e.g. `create-spec`, `execute-tasks`)
 
+## Verify an installation
+
+```bash
+npx github:Kim2783/Databrook-os verify
+```
+
+Checks `.agent-os/` structure, symlink health, version file, and reports any mismatches.
+
 ## Development workflow
 
 ```
